@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TwitterAnaliz</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">iqHGBOrcINhBmE78ceNujbxO4</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">NEyt90eJ2qWE1ygpOCGffT4l2e5kcO5ErMinSYMhjkFoWZnoSs</string>
+
+    <string name="toast_internetBaglatisiYok">Lütfen İnternet Bağlantınızı Kontrol Edin</string>
+    <string name="toast_giris_basarisiz">Giriş Başarısız</string>
+    <string name="toast_islem_basarisiz">İşlem Başarısız</string>
+    <string name="main_activity_sonGuncellemeZamani">Son Veri Güncelleme Zamanı:</string>
+    <string name="toast_SharedPreferencesOkumaHatasıUserInfo">Kullanıcı Bilgileri Yüklenemiyor</string>
+    <string name="Yenile">Yenile</string>
+    <string name="toast_VerilerYenileniyor">Veriler Yenileniyor</string>
+    <string name="toast_VerilerYuklenemedi">Veriler Yüklenemedi</string>
+    <string name="toast_UserInfoVerilerYenilendi">Veriler Yenilendi</string>
+    <string name="toast_KullaniciVerileriCekilemedi">Kullanıcı Verileri Çekilemedi</string>
+
+    <string name="throw_KayitSilmeBasarisiz">Kayit Silme Başarız</string>
+    <string name="throw_KayitKontrolBasarisiz">Kayit Kontrol Başarısız</string>
+    <string name="throw_StringDizisiKayit">String Dizisi Kayit Başarısız</string>
+    <string name="throw_KayitliVerilerOkunamadi">Kayitli Veriler Okunamadı</string>
+
+    <string name="TakipEt">Takip Et</string>
+    <string name="TakibiBirak">Takibi Bırak</string>
+    <string name="throw_takipEdilemlerinListesiCekilemedi">Takip Edilenlerin Listesi Çekilemedi</string>
+    <string name="TakipEtmeyenler">Takip Etmeyenler</string>
+    <string name="Hayranlar">Hayranlar / Takip Etmediklerin</string>
+    <string name="TakipEdilenler">Takip Edilenler</string>
+    <string name="YeniTakibiBırakanlar">Yeni Takibi Bırakanlar</string>
+    <string name="KaybedilenTakipciler">Kaybedilen Takipçiler</string>
+    <string name="YeniTakipEdilenler">Yeni Takip Edilenler</string>
+    <string name="Takipciler">Takipciler</string>
+    <string name="TakipEtmediklerim">Takip Etmediklerin</string>
+    <string name="geriTakipEtmekIstedigineEminMisin">Geri Takip Etmek İstediğinize Emin Misiniz ?</string>
+    <string name="Evet">Evet</string>
+
+    <string-array name="main_activity_recyclerViewAltYazilar">
+        <item>Takipçi</item>
+        <item>Tweet</item>
+        <item>Takip Edilen</item>
+        <item>Favori</item>
+    </string-array>
+</resources>

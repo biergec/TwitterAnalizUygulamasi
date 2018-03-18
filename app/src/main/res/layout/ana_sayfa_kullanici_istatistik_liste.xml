@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/n"
+    android:layout_width="match_parent"
+    android:layout_height="85dp">
+
+    <ImageView
+        android:id="@+id/ana_sayfa_tum_analizler_sol_resim"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twitter_small" />
+
+    <TextView
+        android:id="@+id/ana_sayfa_tum_analizler_sag_yazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ana_sayfa_tum_analizler_sol_yazi"
+        android:layout_alignBottom="@+id/ana_sayfa_tum_analizler_sol_yazi"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/ana_sayfa_tum_analizler_sag_resim"
+        android:layout_toStartOf="@+id/ana_sayfa_tum_analizler_sag_resim"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/ana_sayfa_tum_analizler_sag_resim"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/ana_sayfa_tum_analizler_sol_yazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/ana_sayfa_tum_analizler_sol_resim"
+        android:layout_toRightOf="@+id/ana_sayfa_tum_analizler_sol_resim"
+        android:text="@android:string/dialog_alert_title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/ana_sayfa_tum_analizler_sol_resim"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ImageView
+        android:id="@+id/ana_sayfa_tum_analizler_sag_resim"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sag" />
+</RelativeLayout>
